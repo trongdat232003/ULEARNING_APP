@@ -1,0 +1,60 @@
+com.example.ulearning_app-lifecycle-livedata-core-2.7.0-0 C:\Users\trong\.gradle\caches\transforms-4\05e2c2043d883e70668f124680b3394a\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.ulearning_app-jetified-fragment-ktx-1.7.1-1 C:\Users\trong\.gradle\caches\transforms-4\071a357031a1b6df4a0255a92f6643de\transformed\jetified-fragment-ktx-1.7.1\res
+com.example.ulearning_app-jetified-appcompat-resources-1.1.0-2 C:\Users\trong\.gradle\caches\transforms-4\14afca7b1e43c5ab88fe0098bc170b3f\transformed\jetified-appcompat-resources-1.1.0\res
+com.example.ulearning_app-jetified-play-services-measurement-api-22.1.2-3 C:\Users\trong\.gradle\caches\transforms-4\178fb6f0060610d887a92da381496b92\transformed\jetified-play-services-measurement-api-22.1.2\res
+com.example.ulearning_app-lifecycle-viewmodel-2.7.0-4 C:\Users\trong\.gradle\caches\transforms-4\1e559ed983ce36897d19239953a107f3\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.ulearning_app-appcompat-1.1.0-5 C:\Users\trong\.gradle\caches\transforms-4\25962a1e215f107c617e856c3220e240\transformed\appcompat-1.1.0\res
+com.example.ulearning_app-jetified-activity-ktx-1.8.1-6 C:\Users\trong\.gradle\caches\transforms-4\2cb44fc54c7dbe30afb699661e114b00\transformed\jetified-activity-ktx-1.8.1\res
+com.example.ulearning_app-jetified-savedstate-1.2.1-7 C:\Users\trong\.gradle\caches\transforms-4\2dd4420b62cb38656d511db29c38a644\transformed\jetified-savedstate-1.2.1\res
+com.example.ulearning_app-slidingpanelayout-1.2.0-8 C:\Users\trong\.gradle\caches\transforms-4\2f5468dd8edd907a62f8cd0045ed5ba3\transformed\slidingpanelayout-1.2.0\res
+com.example.ulearning_app-jetified-ads-adservices-java-1.0.0-beta05-9 C:\Users\trong\.gradle\caches\transforms-4\2fd1b3311bf127c0f625d9442011f3cd\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.example.ulearning_app-jetified-profileinstaller-1.3.1-10 C:\Users\trong\.gradle\caches\transforms-4\30ad6c3cc3751c0636afd380cf8df653\transformed\jetified-profileinstaller-1.3.1\res
+com.example.ulearning_app-jetified-annotation-experimental-1.4.0-11 C:\Users\trong\.gradle\caches\transforms-4\364336a3f6b47b16b2a25e8de65014b1\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.ulearning_app-jetified-startup-runtime-1.1.1-12 C:\Users\trong\.gradle\caches\transforms-4\40b9320f1eb81f0b68d0e7baefcbcdd6\transformed\jetified-startup-runtime-1.1.1\res
+com.example.ulearning_app-jetified-lifecycle-viewmodel-ktx-2.7.0-13 C:\Users\trong\.gradle\caches\transforms-4\418aa317ebc423fb64f0255dd50d44e0\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.example.ulearning_app-jetified-core-ktx-1.13.1-14 C:\Users\trong\.gradle\caches\transforms-4\419f3ebb3f0d95e87ab60b5860f523be\transformed\jetified-core-ktx-1.13.1\res
+com.example.ulearning_app-jetified-tracing-1.2.0-15 C:\Users\trong\.gradle\caches\transforms-4\4368badd41ef5647487017d6494438c0\transformed\jetified-tracing-1.2.0\res
+com.example.ulearning_app-jetified-core-common-2.0.3-16 C:\Users\trong\.gradle\caches\transforms-4\4509c983c39d111ffef0c498ee6e105a\transformed\jetified-core-common-2.0.3\res
+com.example.ulearning_app-jetified-lifecycle-process-2.7.0-17 C:\Users\trong\.gradle\caches\transforms-4\468ebcf0495e26882a8621653cb30410\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.ulearning_app-jetified-core-1.0.0-18 C:\Users\trong\.gradle\caches\transforms-4\5ba31be9fca3a85500491f10b527e008\transformed\jetified-core-1.0.0\res
+com.example.ulearning_app-jetified-datastore-core-release-19 C:\Users\trong\.gradle\caches\transforms-4\5d2526ed66c12d7310eaeb3831321ae8\transformed\jetified-datastore-core-release\res
+com.example.ulearning_app-core-1.13.1-20 C:\Users\trong\.gradle\caches\transforms-4\60e07d2338c78e4d1b82c1bb47e90041\transformed\core-1.13.1\res
+com.example.ulearning_app-lifecycle-runtime-2.7.0-21 C:\Users\trong\.gradle\caches\transforms-4\69f6c03cfa5280055fa40992adc30600\transformed\lifecycle-runtime-2.7.0\res
+com.example.ulearning_app-jetified-savedstate-ktx-1.2.1-22 C:\Users\trong\.gradle\caches\transforms-4\720d3992e301f445004b62f84ffafb8a\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.ulearning_app-jetified-datastore-preferences-release-23 C:\Users\trong\.gradle\caches\transforms-4\748622e732ea01cdd47a843935f8db20\transformed\jetified-datastore-preferences-release\res
+com.example.ulearning_app-jetified-play-services-auth-20.7.0-24 C:\Users\trong\.gradle\caches\transforms-4\80af37d385722a7dca8daf34ec94beba\transformed\jetified-play-services-auth-20.7.0\res
+com.example.ulearning_app-core-runtime-2.2.0-25 C:\Users\trong\.gradle\caches\transforms-4\85639b6018b866b441d40d46f659bef0\transformed\core-runtime-2.2.0\res
+com.example.ulearning_app-jetified-activity-1.8.1-26 C:\Users\trong\.gradle\caches\transforms-4\890d3de957fa58288be9b2cc306088b7\transformed\jetified-activity-1.8.1\res
+com.example.ulearning_app-jetified-lifecycle-runtime-ktx-2.7.0-27 C:\Users\trong\.gradle\caches\transforms-4\892e49ae99bafd95b7d23aabbc34965e\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.example.ulearning_app-jetified-lifecycle-livedata-core-ktx-2.7.0-28 C:\Users\trong\.gradle\caches\transforms-4\92a0061d308b59bd3173d1a606b3b79a\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.ulearning_app-jetified-play-services-base-18.5.0-29 C:\Users\trong\.gradle\caches\transforms-4\937db86f0eeaa9787b37a473a3ad12cd\transformed\jetified-play-services-base-18.5.0\res
+com.example.ulearning_app-recyclerview-1.0.0-30 C:\Users\trong\.gradle\caches\transforms-4\95391dc947b0d9e28380f306d166f4b5\transformed\recyclerview-1.0.0\res
+com.example.ulearning_app-jetified-ads-adservices-1.0.0-beta05-31 C:\Users\trong\.gradle\caches\transforms-4\9ccdcf5ce0cf60b3f79e06282491a5b7\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.example.ulearning_app-jetified-firebase-common-21.0.0-32 C:\Users\trong\.gradle\caches\transforms-4\a40e45207ed265e12ad6a3722debb758\transformed\jetified-firebase-common-21.0.0\res
+com.example.ulearning_app-jetified-play-services-basement-18.4.0-33 C:\Users\trong\.gradle\caches\transforms-4\cc09210c9f6a322b3006951257c87cd4\transformed\jetified-play-services-basement-18.4.0\res
+com.example.ulearning_app-transition-1.4.1-34 C:\Users\trong\.gradle\caches\transforms-4\d6a55051b602324af4112f06efd2d4a3\transformed\transition-1.4.1\res
+com.example.ulearning_app-preference-1.2.1-35 C:\Users\trong\.gradle\caches\transforms-4\d7b935ebaa9996b6c6093ecdb063756e\transformed\preference-1.2.1\res
+com.example.ulearning_app-coordinatorlayout-1.0.0-36 C:\Users\trong\.gradle\caches\transforms-4\d8deaf5694e07a65a1be3d2e7dc8e950\transformed\coordinatorlayout-1.0.0\res
+com.example.ulearning_app-jetified-credentials-play-services-auth-1.2.0-rc01-37 C:\Users\trong\.gradle\caches\transforms-4\dbf94cd43fe19dfbe8bee06a0c2bf261\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\res
+com.example.ulearning_app-fragment-1.7.1-38 C:\Users\trong\.gradle\caches\transforms-4\dd445a020538cfc81a76c181f188b044\transformed\fragment-1.7.1\res
+com.example.ulearning_app-jetified-lifecycle-viewmodel-savedstate-2.7.0-39 C:\Users\trong\.gradle\caches\transforms-4\e2aef335e2d8957d630f491a647d4650\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.ulearning_app-jetified-window-1.2.0-40 C:\Users\trong\.gradle\caches\transforms-4\e3ad4848b41ecf1873adf3609b5c1a17\transformed\jetified-window-1.2.0\res
+com.example.ulearning_app-jetified-credentials-1.2.0-rc01-41 C:\Users\trong\.gradle\caches\transforms-4\e4641714d5f19d24c3045ca13501097d\transformed\jetified-credentials-1.2.0-rc01\res
+com.example.ulearning_app-lifecycle-livedata-2.7.0-42 C:\Users\trong\.gradle\caches\transforms-4\ec9454f7adfdfe398b18dfd887861ca3\transformed\lifecycle-livedata-2.7.0\res
+com.example.ulearning_app-jetified-datastore-release-43 C:\Users\trong\.gradle\caches\transforms-4\f296d19c2e22d8ca6c655d5a9c97f19a\transformed\jetified-datastore-release\res
+com.example.ulearning_app-browser-1.4.0-44 C:\Users\trong\.gradle\caches\transforms-4\f89bea98edf1b38f61e44ed951b1f49d\transformed\browser-1.4.0\res
+com.example.ulearning_app-jetified-window-java-1.2.0-45 C:\Users\trong\.gradle\caches\transforms-4\ffa234e57616eba559654582b8b0ef7d\transformed\jetified-window-java-1.2.0\res
+com.example.ulearning_app-debug-46 D:\Project Android\ulearning_app\android\app\src\debug\res
+com.example.ulearning_app-main-47 D:\Project Android\ulearning_app\android\app\src\main\res
+com.example.ulearning_app-google-services-48 D:\Project Android\ulearning_app\build\app\generated\res\google-services\debug
+com.example.ulearning_app-pngs-49 D:\Project Android\ulearning_app\build\app\generated\res\pngs\debug
+com.example.ulearning_app-resValues-50 D:\Project Android\ulearning_app\build\app\generated\res\resValues\debug
+com.example.ulearning_app-packageDebugResources-51 D:\Project Android\ulearning_app\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.ulearning_app-packageDebugResources-52 D:\Project Android\ulearning_app\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.ulearning_app-debug-53 D:\Project Android\ulearning_app\build\app\intermediates\merged_res\debug\mergeDebugResources
+com.example.ulearning_app-debug-54 D:\Project Android\ulearning_app\build\cloud_firestore\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-55 D:\Project Android\ulearning_app\build\firebase_analytics\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-56 D:\Project Android\ulearning_app\build\firebase_auth\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-57 D:\Project Android\ulearning_app\build\firebase_core\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-58 D:\Project Android\ulearning_app\build\fluttertoast\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-59 D:\Project Android\ulearning_app\build\shared_preferences_android\intermediates\packaged_res\debug\packageDebugResources

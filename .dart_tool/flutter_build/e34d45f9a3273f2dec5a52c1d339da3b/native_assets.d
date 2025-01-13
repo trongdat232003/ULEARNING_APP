@@ -1,0 +1,1 @@
+ D:\\Project\ Android\\ulearning_app\\.dart_tool\\flutter_build\\e34d45f9a3273f2dec5a52c1d339da3b\\native_assets.yaml: 

@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ulearning_app/common/values/colors.dart';
+import 'package:ulearning_app/page/home/home_page.dart';
+import 'package:ulearning_app/page/profile/profile.dart';
 
 Widget buildPage(int index) {
   List<Widget> _widget = [
+    HomePage(),
     Center(child: Text("Home")),
     Center(child: Text("Search")),
     Center(child: Text("Course")),
-    Center(child: Text("Chat")),
-    Center(child: Text("Profile")),
+    ProfilePage(),
   ];
 
   return _widget[index];

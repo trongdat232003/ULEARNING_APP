@@ -1,0 +1,6 @@
+{
+    "dart.hotReloadOnSave": "manual",
+    "dart.previewFlutterUiGuides": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+}

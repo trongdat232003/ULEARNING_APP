@@ -6,3 +6,5 @@ class HomePageDots extends HomePageEvents {
   final int index;
   HomePageDots(this.index);
 }
+
+class LoadCourses extends HomePageEvents {}

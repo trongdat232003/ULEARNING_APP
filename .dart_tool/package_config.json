@@ -68,6 +68,18 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "dio",
+      "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/dio-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "dots_indicator",
       "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/dots_indicator-3.0.0",
       "packageUri": "lib/",
@@ -158,6 +170,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "flutter_easyloading",
+      "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_easyloading-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
       "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-5.0.0",
       "packageUri": "lib/",
@@ -168,6 +186,12 @@
       "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_screenutil-5.9.3",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "flutter_spinkit",
+      "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_spinkit-5.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_test",
@@ -186,6 +210,12 @@
       "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/fluttertoast-8.2.10",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///C:/Users/trong/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "http_parser",
@@ -428,7 +458,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-14T08:17:23.111061Z",
+  "generated": "2025-01-17T12:47:42.432401Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///D:/flutter_windows_3.27.1-stable/flutter",

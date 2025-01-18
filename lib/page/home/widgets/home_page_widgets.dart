@@ -8,29 +8,36 @@ import 'package:ulearning_app/page/home/bloc/home_page_blocs.dart';
 import 'package:ulearning_app/page/home/bloc/home_page_events.dart';
 import 'package:ulearning_app/page/home/bloc/home_page_states.dart';
 
-AppBar buildAppBar() {
+AppBar buildAppBar(String avatarUrl) {
   return AppBar(
     title: Container(
-      margin: EdgeInsets.only(left: 7.w, right: 7.w),
+      margin: EdgeInsets.only(left: 7.0, right: 7.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(
-            width: 15.w,
-            height: 12.h,
-            child: Image.asset("assets/icons/menu.png"),
+            width: 15.0,
+            height: 12.0,
+            child: Image.asset("assets/icons/menu.png"), // Icon menu
           ),
           GestureDetector(
             child: Container(
-              width: 40.w,
-              height: 40.h,
+              width: 40.0,
+              height: 40.0,
               decoration: BoxDecoration(
-                  image: DecorationImage(
-                image: AssetImage("assets/icons/person.png"),
-              )),
+                image: DecorationImage(
+                  image: avatarUrl.isNotEmpty
+                      ? NetworkImage(avatarUrl) // Sử dụng URL avatar từ API
+                      : AssetImage("assets/icons/person.png")
+                          as ImageProvider, // Avatar mặc định
+                  fit: BoxFit.cover,
+                ),
+                borderRadius:
+                    BorderRadius.circular(20), // Đảm bảo avatar hình tròn
+              ),
             ),
-          )
+          ),
         ],
       ),
     ),
@@ -217,23 +224,28 @@ Widget _reusableMenuText(String text,
   );
 }
 
-Widget courseGrid() {
+Widget courseGrid(
+    String imageUrl, String courseName, String courseDescription) {
   return Container(
     padding: EdgeInsets.all(12.w),
     decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(15.w),
-        image: DecorationImage(
-            fit: BoxFit.fill, image: AssetImage("assets/icons/image_1.png"))),
+      borderRadius: BorderRadius.circular(15.w),
+      image: DecorationImage(
+        fit: BoxFit.cover,
+        image: imageUrl.isNotEmpty
+            ? NetworkImage(imageUrl) // Sử dụng ảnh từ API
+            : AssetImage("assets/icons/image_1.png")
+                as ImageProvider, // Ảnh mặc định
+      ),
+    ),
     child: Column(
       mainAxisAlignment: MainAxisAlignment.end,
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Best course for IT and Engineer",
+          courseName,
           maxLines: 1,
-          overflow: TextOverflow.fade,
-          textAlign: TextAlign.left,
-          softWrap: false,
+          overflow: TextOverflow.ellipsis, // Tránh tràn văn bản
           style: TextStyle(
               color: AppColors.primaryElementText,
               fontWeight: FontWeight.bold,
@@ -243,11 +255,9 @@ Widget courseGrid() {
           height: 5.h,
         ),
         Text(
-          "Flutter best course",
+          courseDescription,
           maxLines: 1,
-          overflow: TextOverflow.fade,
-          textAlign: TextAlign.left,
-          softWrap: false,
+          overflow: TextOverflow.ellipsis, // Tránh tràn văn bản
           style: TextStyle(
               color: AppColors.primaryFourthElementText,
               fontWeight: FontWeight.normal,

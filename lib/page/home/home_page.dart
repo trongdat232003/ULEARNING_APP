@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ulearning_app/common/routes/names.dart';
 import 'package:ulearning_app/common/service/userService.dart';
 import 'package:ulearning_app/common/values/colors.dart';
 import 'package:ulearning_app/page/home/bloc/home_page_blocs.dart';
@@ -83,8 +84,20 @@ class _HomePageState extends State<HomePage> {
                         (BuildContext context, int index) {
                           final course = state.courses[index];
                           return GestureDetector(
-                            onTap: () {
-                              // Xử lý khi nhấn vào khóa học
+                            onTap: () async {
+                              final course = state.courses.elementAt(index);
+
+                              // Assuming you have the token available (e.g., from a shared preferences or user session)
+                              final token = await UserService
+                                  .getToken(); // Await the token retrieval
+
+                              Navigator.of(context).pushNamed(
+                                AppRoutes.COURSE_DETAIL,
+                                arguments: {
+                                  "id": course["_id"], // Pass the course id
+                                  "token": token, // Pass the token
+                                },
+                              );
                             },
                             child: courseGrid(
                               course['thumbnail'], // URL hình ảnh

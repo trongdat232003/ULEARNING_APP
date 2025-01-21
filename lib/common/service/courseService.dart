@@ -25,4 +25,36 @@ class CourseService {
       return [];
     }
   }
+
+// Lấy chi tiết khóa học từ API
+  static Future<Map<String, dynamic>?> getCourseDetails(
+      String id, String token) async {
+    try {
+      final response = await http.get(
+        Uri.parse("$apiUrl/details/$id"), // URL lấy chi tiết khóa học
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": token,
+        },
+      );
+      print("Response body: ${response.body}"); // In ra nội dung của response
+
+      if (response.statusCode == 200) {
+        final data = jsonDecode(response.body);
+
+        // Ensure that 'courses' exists in the response and is correctly accessed
+        if (data.containsKey('courses')) {
+          return data['courses']; // Trả về chi tiết khóa học từ API
+        } else {
+          throw Exception('Courses data is missing');
+        }
+      } else {
+        throw Exception(
+            "Error: ${jsonDecode(response.body)['message'] ?? 'Failed to fetch course details'}");
+      }
+    } catch (e) {
+      print("Error fetching course details: $e");
+      return null;
+    }
+  }
 }

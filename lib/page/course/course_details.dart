@@ -30,6 +30,26 @@ class CourseDetailsView extends StatefulWidget {
 class _CourseDetailsViewState extends State<CourseDetailsView> {
   late String courseId;
   late String token;
+  void handlePayment(BuildContext context) async {
+    final paymentMethodId = "pm_card_visa"; // Lấy từ user hoặc cài mặc định
+    final result =
+        await CourseService.checkoutCourse(courseId, token, paymentMethodId);
+    print(result);
+    if (result != null && result["message"] == "Payment successful") {
+      final courseInfo = result["courseInfo"];
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+            content: Text("Thanh toán thành công: ${courseInfo['name']}!")),
+      );
+
+      // Điều hướng hoặc cập nhật trạng thái ứng dụng
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text("Thanh toán thất bại, vui lòng thử lại.")),
+      );
+    }
+  }
 
   @override
   void didChangeDependencies() {
@@ -76,7 +96,7 @@ class _CourseDetailsViewState extends State<CourseDetailsView> {
                     SizedBox(height: 15.h),
                     descriptionText(course['description']),
                     SizedBox(height: 20.h),
-                    goBuyButton("Go buy"),
+                    goBuyButton("Go buy", () => handlePayment(context)),
                     SizedBox(height: 20.h),
                     courseSummaryTitle(),
                     courseSummaryView(

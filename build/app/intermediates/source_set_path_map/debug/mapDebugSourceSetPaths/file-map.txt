@@ -42,7 +42,7 @@ com.example.ulearning_app-jetified-window-1.2.0-40 C:\Users\trong\.gradle\caches
 com.example.ulearning_app-jetified-credentials-1.2.0-rc01-41 C:\Users\trong\.gradle\caches\transforms-4\e4641714d5f19d24c3045ca13501097d\transformed\jetified-credentials-1.2.0-rc01\res
 com.example.ulearning_app-lifecycle-livedata-2.7.0-42 C:\Users\trong\.gradle\caches\transforms-4\ec9454f7adfdfe398b18dfd887861ca3\transformed\lifecycle-livedata-2.7.0\res
 com.example.ulearning_app-jetified-datastore-release-43 C:\Users\trong\.gradle\caches\transforms-4\f296d19c2e22d8ca6c655d5a9c97f19a\transformed\jetified-datastore-release\res
-com.example.ulearning_app-browser-1.4.0-44 C:\Users\trong\.gradle\caches\transforms-4\f89bea98edf1b38f61e44ed951b1f49d\transformed\browser-1.4.0\res
+com.example.ulearning_app-browser-1.8.0-44 C:\Users\trong\.gradle\caches\transforms-4\fa0ef14237127f31e8194121de8121c0\transformed\browser-1.8.0\res
 com.example.ulearning_app-jetified-window-java-1.2.0-45 C:\Users\trong\.gradle\caches\transforms-4\ffa234e57616eba559654582b8b0ef7d\transformed\jetified-window-java-1.2.0\res
 com.example.ulearning_app-debug-46 D:\Project Android\ulearning_app\android\app\src\debug\res
 com.example.ulearning_app-main-47 D:\Project Android\ulearning_app\android\app\src\main\res
@@ -58,3 +58,4 @@ com.example.ulearning_app-debug-56 D:\Project Android\ulearning_app\build\fireba
 com.example.ulearning_app-debug-57 D:\Project Android\ulearning_app\build\firebase_core\intermediates\packaged_res\debug\packageDebugResources
 com.example.ulearning_app-debug-58 D:\Project Android\ulearning_app\build\fluttertoast\intermediates\packaged_res\debug\packageDebugResources
 com.example.ulearning_app-debug-59 D:\Project Android\ulearning_app\build\shared_preferences_android\intermediates\packaged_res\debug\packageDebugResources
+com.example.ulearning_app-debug-60 D:\Project Android\ulearning_app\build\url_launcher_android\intermediates\packaged_res\debug\packageDebugResources

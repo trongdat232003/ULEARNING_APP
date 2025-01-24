@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ulearning_app/common/routes/names.dart';
+import 'package:ulearning_app/common/service/courseService.dart';
 import 'package:ulearning_app/page/application/application_page.dart';
 import 'package:ulearning_app/page/application/bloc/app_blocs.dart';
 import 'package:ulearning_app/global.dart';
@@ -12,6 +13,8 @@ import 'package:ulearning_app/page/profile/settings/bloc/settings_blocs.dart';
 import 'package:ulearning_app/page/profile/settings/settings_page.dart';
 import 'package:ulearning_app/page/register/bloc/register_blocs.dart';
 import 'package:ulearning_app/page/register/register.dart';
+import 'package:ulearning_app/page/search/bloc/search_bloc.dart';
+import 'package:ulearning_app/page/search/search_page.dart';
 import 'package:ulearning_app/page/sign_in/bloc/sign_in_blocs.dart';
 import 'package:ulearning_app/page/sign_in/sign_in.dart';
 import 'package:ulearning_app/page/welcome/bloc/welcome_blocs.dart';
@@ -52,6 +55,12 @@ class AppPages {
           route: AppRoutes.COURSE_DETAIL,
           page: const CourseDetails(),
           bloc: BlocProvider(create: (_) => CourseDetailBloc())),
+      PageEntity(
+        route: AppRoutes.SEARCH_PAGE,
+        page: SearchPage(),
+        bloc: BlocProvider(
+            create: (_) => SearchBloc(courseService: CourseService())),
+      ),
     ];
   }
 

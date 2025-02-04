@@ -15,4 +15,7 @@ class AppRoutes {
   static const COURSE_DETAIL = "/course-detail";
   //search course
   static const SEARCH_PAGE = "/search";
+
+  static const CHAT_PAGE = "/chat";
+  static const FRIEND_LIST_PAGE = "/chat";
 }

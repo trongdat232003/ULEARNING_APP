@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:ulearning_app/common/values/colors.dart';
+import 'package:ulearning_app/page/chat/pages/friend_list_page.dart';
 import 'package:ulearning_app/page/home/home_page.dart';
 import 'package:ulearning_app/page/profile/profile.dart';
 import 'package:ulearning_app/page/search/search_page.dart';
@@ -10,7 +11,7 @@ Widget buildPage(int index) {
     HomePage(),
     SearchPage(),
     Center(child: Text("Home")),
-    Center(child: Text("Search")),
+    FriendListPage(),
     ProfilePage(),
   ];
 

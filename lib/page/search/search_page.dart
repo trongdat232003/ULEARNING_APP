@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:ulearning_app/common/routes/names.dart';
 import 'package:ulearning_app/common/service/courseService.dart';
+import 'package:ulearning_app/common/service/userService.dart';
 import 'package:ulearning_app/page/search/bloc/search_bloc.dart';
 import 'package:ulearning_app/page/search/bloc/search_event.dart';
 import 'package:ulearning_app/page/search/bloc/search_state.dart';
@@ -131,8 +133,20 @@ class SearchBody extends StatelessWidget {
                             fontSize: 16.0,
                           ),
                         ),
-                        onTap: () {
-                          // Navigate to course detail page or perform other actions
+                        onTap: () async {
+                          final course = state.courses.elementAt(index);
+
+                          // Assuming you have the token available (e.g., from a shared preferences or user session)
+                          final token = await UserService
+                              .getToken(); // Await the token retrieval
+
+                          Navigator.of(context).pushNamed(
+                            AppRoutes.COURSE_DETAIL,
+                            arguments: {
+                              "id": course["_id"], // Pass the course id
+                              "token": token, // Pass the token
+                            },
+                          );
                         },
                       ),
                     );

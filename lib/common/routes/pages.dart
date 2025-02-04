@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:ulearning_app/common/routes/names.dart';
+import 'package:ulearning_app/common/service/chatService.dart';
 import 'package:ulearning_app/common/service/courseService.dart';
 import 'package:ulearning_app/page/application/application_page.dart';
 import 'package:ulearning_app/page/application/bloc/app_blocs.dart';
 import 'package:ulearning_app/global.dart';
+import 'package:ulearning_app/page/chat/bloc/chat_blocs.dart';
+import 'package:ulearning_app/page/chat/bloc/friends_bloc.dart';
+import 'package:ulearning_app/page/chat/pages/chat_page.dart';
+import 'package:ulearning_app/page/chat/pages/friend_list_page.dart';
 import 'package:ulearning_app/page/course/bloc/couse_details_blocs.dart';
 import 'package:ulearning_app/page/course/course_details.dart';
 import 'package:ulearning_app/page/home/home_page.dart';
@@ -60,6 +65,19 @@ class AppPages {
         page: SearchPage(),
         bloc: BlocProvider(
             create: (_) => SearchBloc(courseService: CourseService())),
+      ),
+      PageEntity(
+        route: AppRoutes.FRIEND_LIST_PAGE,
+        page: FriendListPage(),
+        bloc: BlocProvider(create: (_) => FriendListBloc()),
+      ),
+      PageEntity(
+        route: AppRoutes.CHAT_PAGE,
+        page: ChatPage(
+          senderId: '', // Replace with sender ID dynamically
+          receiverId: '', // Replace with receiver ID dynamically
+        ),
+        bloc: BlocProvider(create: (_) => ChatBloc(ChatService())),
       ),
     ];
   }
